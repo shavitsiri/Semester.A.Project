@@ -27,8 +27,8 @@ export default function NavBar(props)
                     <Navbar.Collapse id="basic-navbar-nav">
                    
                     
-                    <ImageButton img={<HomeIcon />} >
-                        <Nav.Link as={Link} to={'/'}>Home</Nav.Link> 
+                <ImageButton img={<HomeIcon />} >
+                        <Nav.Link as={Link} to={'/'} style={{fontFamily:'Brush Script MT', fontSize:'25px'}}>Home</Nav.Link> 
                     </ImageButton>
                     
                     <Nav style={{fontFamily:'cursive', fontSize:'20px'}}  className="me-auto">
